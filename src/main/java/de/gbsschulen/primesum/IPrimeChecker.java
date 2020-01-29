@@ -1,5 +1,5 @@
 package de.gbsschulen.primesum;
 
-public interface Rechner {
+public interface IPrimeChecker {
     boolean isPrime(int number);
 }
