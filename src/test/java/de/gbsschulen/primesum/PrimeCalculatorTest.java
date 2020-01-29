@@ -9,12 +9,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class PrimeCalculatorTest {
     private IPrimeCalculator primeCalculator;
 
+    // Wird vor JEDEM Test ausgeführt
     @BeforeEach
     public void init(){
         // Arrange
         primeCalculator = new PrimeCalculator();
     }
 
+    // Testfälle für sumAllNumbers
     @Test
     public void sumAllNumbers_0_shouldReturn_0(){
         // Act
