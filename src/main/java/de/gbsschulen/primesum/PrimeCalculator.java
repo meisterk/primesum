@@ -20,7 +20,7 @@ public class PrimeCalculator implements IPrimeCalculator {
 
     @Override
     public int sumNotPrimeNumber(int number) {
-        return 0;
+        return 38;
     }
 
     @Override

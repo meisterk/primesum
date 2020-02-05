@@ -92,4 +92,20 @@ public class PrimeCalculatorTest {
     public void sumPrimeNumber_10_shouldReturn_17(){
         assertThat(primeCalculator.sumPrimeNumber(10)).isEqualTo(17);
     }
+
+    // Testfälle für sumNotPrimeNumber
+    @Test
+    public void sumNotPrimeNumber_10_shouldReturn_38(){
+        assertThat(primeCalculator.sumNotPrimeNumber(10)).isEqualTo(38);
+    }
+
+    @Test
+    public void sumNotPrimeNumber_5_shouldReturn_5(){
+        assertThat(primeCalculator.sumNotPrimeNumber(5)).isEqualTo(5);
+    }
+
+    @Test
+    public void sumNotPrimeNumber_0_shouldReturn_0(){
+        assertThat(primeCalculator.sumNotPrimeNumber(0)).isEqualTo(0);
+    }
 }
